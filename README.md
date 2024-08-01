@@ -15,7 +15,7 @@
             height: 100vh;
             background-color: #e0f7fa;
             text-align: center;
-            overflow: hidden;
+            overflow: hidden; /* Prevents overflow, use scrolling if needed */
             box-sizing: border-box;
         }
         .container {
@@ -26,14 +26,14 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             max-width: 90%;
             margin: 10px;
-            overflow: hidden;
+            overflow: auto; /* Allows scrolling if content overflows */
             box-sizing: border-box;
         }
         .menu {
             margin-bottom: 20px;
         }
         .menu p {
-            font-size: 16px; /* Adjusted for better mobile readability */
+            font-size: 16px;
             color: #00796b;
             margin: 0;
         }
@@ -47,7 +47,7 @@
             transform: scale(1.2);
         }
         .cat {
-            font-size: 80px; /* Adjusted size for better fit on mobile */
+            font-size: 80px;
             margin: 20px 0;
             transition: transform 1s;
         }
@@ -59,7 +59,7 @@
         }
         .message {
             display: none;
-            font-size: 20px; /* Adjusted for better readability on mobile */
+            font-size: 20px;
             color: #00796b;
             margin: 20px 0;
             opacity: 0;
@@ -118,7 +118,7 @@
             touch-action: manipulation;
         }
         .count {
-            font-size: 20px; /* Adjusted for better mobile readability */
+            font-size: 20px;
             color: #00796b;
             margin: 20px 0;
         }
@@ -128,14 +128,14 @@
             color: white;
             padding: 20px;
             border-radius: 10px;
-            font-size: 24px; /* Adjusted size for mobile */
+            font-size: 24px;
             margin: 20px 0;
             font-weight: bold;
             text-align: center;
             box-sizing: border-box;
         }
         .final-message img {
-            width: 40px; /* Adjust size for mobile */
+            width: 40px;
             vertical-align: middle;
             margin-left: 10px;
         }
