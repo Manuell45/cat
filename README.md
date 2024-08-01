@@ -33,7 +33,7 @@
             margin-bottom: 20px;
         }
         .menu p {
-            font-size: 18px;
+            font-size: 16px; /* Adjusted for better mobile readability */
             color: #00796b;
             margin: 0;
         }
@@ -47,7 +47,7 @@
             transform: scale(1.2);
         }
         .cat {
-            font-size: 100px;
+            font-size: 80px; /* Adjusted size for better fit on mobile */
             margin: 20px 0;
             transition: transform 1s;
         }
@@ -59,7 +59,7 @@
         }
         .message {
             display: none;
-            font-size: 24px;
+            font-size: 20px; /* Adjusted for better readability on mobile */
             color: #00796b;
             margin: 20px 0;
             opacity: 0;
@@ -68,7 +68,7 @@
         .message.new-message {
             display: block;
             opacity: 1;
-            font-size: 48px;
+            font-size: 24px;
         }
         @keyframes sad {
             0% { transform: scale(1); }
@@ -118,23 +118,24 @@
             touch-action: manipulation;
         }
         .count {
-            font-size: 24px;
+            font-size: 20px; /* Adjusted for better mobile readability */
             color: #00796b;
             margin: 20px 0;
         }
         .final-message {
             display: none;
-            background-color: #007bb2; /* Blue background color */
-            color: white; /* White text color */
+            background-color: #007bb2;
+            color: white;
             padding: 20px;
             border-radius: 10px;
-            font-size: 28px;
+            font-size: 24px; /* Adjusted size for mobile */
             margin: 20px 0;
             font-weight: bold;
             text-align: center;
+            box-sizing: border-box;
         }
         .final-message img {
-            width: 50px; /* Adjust size as needed */
+            width: 40px; /* Adjust size for mobile */
             vertical-align: middle;
             margin-left: 10px;
         }
@@ -164,9 +165,8 @@
             <span>❤️</span>
             <span>❤️</span>
         </div>
-        <!-- New GUI Section -->
         <div class="final-message" id="finalMessage">
-            Sarap mong mahalin!!!! <img src="kiss-emoji.png" alt="Kiss Emoji">
+            Sarap mong mahalin <img src="kiss-emoji.png" alt="Kiss Emoji">
         </div>
     </div>
 
